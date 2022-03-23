@@ -1,0 +1,100 @@
+#main-heading{
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	bottom: 250px;
+	color: white;
+	left: 27%;
+	width: 50%;
+	text-align: center;
+	font-size: 400%;
+	padding: 5% 0;
+	font-weight: lightest;
+}
+
+#destinations{
+	position: absolute;
+	top: 400px;
+	color: white;
+	font-size: large;
+	padding-left: 30px;
+	font-family: monospace;
+	font-weight: lightest;
+	letter-spacing: 2px;
+	line-height: 35px;
+}
+
+.image{
+	margin-left: 0;
+	filter: brightness(80%);
+	z-index: -1;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+/* visited link */
+a:visited {
+  color: white;
+}
+
+.link{
+font-family: courier-new,monospace;
+}
+
+#imgwadi{
+	filter:brightness(70%)
+}
+
+#main-wadi{
+background-color: rgba(0,0,0,.6);
+	position: absolute;
+	top: 8px;
+	color: white;
+	left: 17%;
+	width: 70%;
+	height: 90%;
+	text-align: center;
+	font-size: 300%;
+	padding: 5% 0;
+	font-weight: lightest;
+	line-height: 50px;
+}
+.small-image{
+	z-index: 1;
+	position: absolute;
+	bottom: 230px;
+	border: dashed;
+	border-color: white;
+	left: 24%;
+}
+
+.main-text{
+	position: absolute;
+	bottom: 220px;
+	color: white;
+	width: 570px;
+	left:470px;
+	font-family: serif;
+	font-weight: lightest;
+	letter-spacing: 2px;
+
+}
+
+.list{
+	position: absolute;
+	bottom: 10px;
+	left: 300px;
+	color: white;
+	font-family: serif;
+	font-weight: lightest;
+	letter-spacing: 2px;
+	line-height: 25px;	
+}
+.videos{
+	position: absolute;
+	bottom: 15px;
+	left: 690px;
+	
+}
+
